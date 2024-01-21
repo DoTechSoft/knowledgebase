@@ -1,0 +1,22 @@
+#sidebar-section {
+  /* background-color: blueviolet; */
+  flex: 1 1 15%;
+  box-shadow: 0.5px 0px 0px 0px #888;
+}
+#sidebar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 10px;
+}
+#sidebar-list li {
+  padding: 10px 20px;
+}
+#sidebar-list li:hover {
+  cursor: pointer;
+  background-color: rgb(233, 240, 243);
+}
+.selected {
+  background-color: lightblue;
+}
