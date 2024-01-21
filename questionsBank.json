@@ -1,0 +1,709 @@
+{
+  "jkssb": {
+    "faa": {
+      "paper1": {
+        "gk": [
+          {
+            "question": "The bill for the Jammu and Kashmir Reorganisation Act, 2019 was introduced in Rajya Sabha by:",
+            "options": [
+              "Amit Shah",
+              "G. Kishan Reddy",
+              "Rajnath Singh",
+              "Ravi Shankar Prasad"
+            ],
+            "answer": "Amit Shah"
+          },
+          {
+            "question": "The Subar Dhar Mela takes place in which of the following locations of Jammu and Kashmir?",
+            "options": ["Bhaderwah", "Kishtwar", "Srinagar", "Doda"],
+            "answer": "Bhaderwah"
+          },
+          {
+            "question": "Which is the only active volcanic island in India?",
+            "options": [
+              "Minicoy Island",
+              "Amindivi Island",
+              "Barren Island",
+              "Laccadive Island"
+            ],
+            "answer": "Barren Island"
+          },
+          {
+            "question": "Which among the following is the largest wetland sanctuary in the state of Gujarat and one of the biggest in India?",
+            "options": [
+              "Kaziranga national park",
+              "Nalsarovar Bird Sanctuary",
+              "Sultanpur Bird Sanctuary",
+              "Uppalapadu Bird Sanctuary"
+            ],
+            "answer": "Nalsarovar Bird Sanctuary"
+          },
+          {
+            "question": "In which of the following states of India is the Dree festival celebrated?",
+            "options": ["Manipur", "Assam", "Arunachal Pradesh", "Nagaland"],
+            "answer": "Arunachal Pradesh"
+          },
+          {
+            "question": "During which season are walnuts harvested in Jammu and Kashmir?",
+            "options": ["Winter", "Summer", "Autumn", "Monsoon"],
+            "answer": "Autumn"
+          },
+          {
+            "question": "Operation Sadbhavana is an unique humane initiative undertaken in Jammu and Kashmir to help people affected by terrorism and is launched by the:",
+            "options": [
+              "Indian Army",
+              "Central Government of India",
+              "Home Department, Government of Jammu & Kashmir",
+              "District Development Councils"
+            ],
+            "answer": "Indian Army"
+          },
+          {
+            "question": "The Vale of Kashmir (Kashmir valley) is the sole producer of which product (in India)?",
+            "options": ["Sapphire", "Walnut", "Saffron", "Peach"],
+            "answer": "Saffron"
+          },
+          {
+            "question": "As per census 2011, with regards to sex ratio, the number of females per 1000 males in India was:",
+            "options": ["890", "1140", "990", "940"],
+            "answer": "940"
+          },
+          {
+            "question": "Read the following statements and choose the CORRECT option. Statement I: Wheat and Barley are grown as rabi crops in India. Statement II: Rabi crops are sown in the beginning of the monsoon season and harvested between October and December.",
+            "options": [
+              "Statement I: FALSE, Statement II: TRUE",
+              "Statement I: TRUE, Statement II: FALSE",
+              "Statement I: FALSE, Statement II: FALSE",
+              "Statement I: TRUE, Statement II: TRUE"
+            ],
+            "answer": "Statement I: TRUE, Statement II: FALSE"
+          },
+          {
+            "question": "Which among the following lakes is located in Jammu and Kashmir?",
+            "options": [
+              "Sambhar lake",
+              "Lonar lake",
+              "Agara lake",
+              "Wular lake"
+            ],
+            "answer": "Wular lake"
+          },
+          {
+            "question": "Which country shares boundary with Pakistan in the West?",
+            "options": ["Iran", "India", "Iraq", "China"],
+            "answer": "Iran"
+          },
+          {
+            "question": "Which of the following soils is suitable for saffron cultivation in Jammu and Kashmir region?",
+            "options": [
+              "Gruti soil",
+              "Karewa soil",
+              "Nambal soil",
+              "Tand soil"
+            ],
+            "answer": "Karewa soil"
+          },
+          {
+            "question": "The origin of which of the following lakes in Jammu and Kashmir is associated with the Mahabharata?",
+            "options": [
+              "Dal lake",
+              "Surinsar lake",
+              "Nagin lake",
+              "Wullar lake"
+            ],
+            "answer": "Surinsar lake"
+          },
+          {
+            "question": "Gulab Singh was eventually made the Raja of Jammu through which the following Treaties dated: 16-3-1846?",
+            "options": [
+              "Treaty of Delhi",
+              "Treaty of Lahore",
+              "Treaty of Amritsar",
+              "Treaty of Srinagar"
+            ],
+            "answer": "Treaty of Amritsar"
+          },
+          {
+            "question": "In 2021, the Jammu and Kashmir Government filed an application to seek GI tag for which of the following species of mushrooms?",
+            "options": ["Telia Sattar", "Gucchi", "Boda", "Matij"],
+            "answer": "Gucchi"
+          },
+          {
+            "question": "Which among the following destinations is the base camp of the Amarnath Yatra?",
+            "options": ["Sonmarg", "Gulmarg", "Pampore", "Sanasar"],
+            "answer": "Sonmarg"
+          },
+          {
+            "question": "Which among the following was the residential palace of Raja Amar Singh, located in Jammu?",
+            "options": ["Bahu Fort", "Amar Mahal", "Akhnoor Fort", "Gol Ghar"],
+            "answer": "Amar Mahal"
+          },
+          {
+            "question": "The Jawaharlal Nehru Port Trust (JNPT) is the premier container handling port in India, accounting for around 50% of the total containerized cargo volume, across the major ports of India. It is located in:",
+            "options": ["Navi Mumbai", "Kochi", "Visakhapatnam", "Chennai"],
+            "answer": "Navi Mumbai"
+          },
+          {
+            "question": "In October 2021, Government of India signed a share purchase agreement with Tata Sons for sale of which of the following airlines for Rs 18,000 crores?",
+            "options": ["IndiGo", "SpiceJet", "Go First", "Air India"],
+            "answer": "Air India"
+          },
+          {
+            "question": "When did the Indigo revolt in Bengal, a peasant movement, start?",
+            "options": ["1837", "1859", "1871", "1889"],
+            "answer": "1859"
+          },
+          {
+            "question": "Which of the following countries lies to the south of India?",
+            "options": ["Pakistan", "Maldives", "Myanmar", "Bangladesh"],
+            "answer": "Maldives"
+          },
+          {
+            "question": "Which of the following forts of Jammu and Kashmir is also known as the Koh-e-Maran?",
+            "options": [
+              "Chitkan Fort",
+              "Akhnoor Fort",
+              "Hari Parbat Fort",
+              "Bahu Fort"
+            ],
+            "answer": "Hari Parbat Fort"
+          },
+          {
+            "question": "As per Census 2011, what is the literacy rate of India?",
+            "options": ["67.02 %", "70.10 %", "74.04 %", "81.03 %"],
+            "answer": "74.04 %"
+          },
+          {
+            "question": "In 2021, under the Pradhan Mantri Kaushal Vikas Yojana, a pilot project was launched to revive which of the following crafts of Jammu and Kashmir?",
+            "options": ["Calico Painting", "Basohli", "Phool Kari", "Namda"],
+            "answer": "Namda"
+          },
+          {
+            "question": "Which of the following statements is FALSE with reference to the Jammu and Kashmir Reorganization Act of 2019?",
+            "options": [
+              "Ladakh has been formulated into a separate Union territory without a Legislative Assembly",
+              "Jammu and Kashmir has become a Union Territory with a Legislative Assembly",
+              "Governor of existing State of Jammu and Kashmir to be common Lieutenant Governor",
+              "There will be no reservation for Scheduled Tribe and Scheduled Caste in Jammu and Kashmir"
+            ],
+            "answer": "There will be no reservation for Scheduled Tribe and Scheduled Caste in Jammu and Kashmir"
+          }
+        ],
+        "accountancy": [
+          {
+            "question": "The assets that can be easily converted into cash within a short period i.e., 1 year or less is known as?",
+            "options": [
+              "Current Assets",
+              "Fixed assets",
+              "Intangible assets",
+              "Investments"
+            ],
+            "answer": "Current Assets"
+          }
+        ],
+        "maths": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "statistics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "science": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "english": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "computer": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          },
+          {
+            "question": "First time when the operating system is loading into main memory and peripheral devices are checked called?",
+            "options": [
+              "Freeze booting",
+              "Hot booting",
+              "Warm booting",
+              "Cold booting"
+            ],
+            "answer": "Cold booting"
+          },
+          {
+            "question": "The memory resident portion of the operating system is called?",
+            "options": ["API", "CMOS", "Register", "Kernel"],
+            "answer": "Kernel"
+          }
+        ],
+        "economics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ]
+      },
+      "paper2": {
+        "gk": [
+          {
+            "question": "The bill for the Jammu and Kashmir Reorganisation Act, 2019 was introduced in Rajya Sabha by:",
+            "options": [
+              "Amit Shah",
+              "G. Kishan Reddy",
+              "Rajnath Singh",
+              "Ravi Shankar Prasad"
+            ],
+            "answer": "Amit Shah"
+          }
+        ],
+        "accountancy": [
+          {
+            "question": "The assets that can be easily converted into cash within a short period i.e., 1 year or less is known as?",
+            "options": [
+              "Current Assets",
+              "Fixed assets",
+              "Intangible assets",
+              "Investments"
+            ],
+            "answer": "Current Assets"
+          }
+        ],
+        "maths": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "statistics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "science": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "english": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "computer": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          },
+          {
+            "question": "First time when the operating system is loading into main memory and peripheral devices are checked called?",
+            "options": [
+              "Freeze booting",
+              "Hot booting",
+              "Warm booting",
+              "Cold booting"
+            ],
+            "answer": "Cold booting"
+          },
+          {
+            "question": "The memory resident portion of the operating system is called?",
+            "options": ["API", "CMOS", "Register", "Kernel"],
+            "answer": "Kernel"
+          }
+        ],
+        "economics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ]
+      }
+    },
+    "juniorassistant": {
+      "paper1": {
+        "gk": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "accountancy": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "maths": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "statistics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "science": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "english": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "computer": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "economics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ]
+      }
+    }
+  },
+  "jkpsc": {
+    "assistantProfessor": {
+      "paper1": {
+        "gk": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "accountancy": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "maths": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "statistics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "science": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "english": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "computer": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "economics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ]
+      }
+    },
+    "programmer": {
+      "paper1": {
+        "gk": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "accountancy": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "maths": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "statistics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "science": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "english": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "computer": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ],
+        "economics": [
+          {
+            "question": "The word processing feature that catches most random typographical errors and misspellings is known as?",
+            "options": [
+              "Grammar Checker",
+              "Spell Checker",
+              "Word Checker",
+              "None of the these"
+            ],
+            "answer": "Spell Checker"
+          }
+        ]
+      }
+    }
+  }
+}
