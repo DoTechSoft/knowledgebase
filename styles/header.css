@@ -1,6 +1,7 @@
 #header {
   background-color: lightblue;
-  min-height: 100px;
+  /* min-height: 100px; */
+  flex: 1 1 10%;
   display: flex;
 }
 #logo-section {
@@ -42,8 +43,12 @@
   gap: 30px;
   margin-right: 10px;
 }
+#nav-list li {
+  padding: 10px 10px;
+  border-radius: 8px;
+}
 
 #nav-list li:hover {
-  background-color: antiquewhite;
+  background-color: rgb(233, 240, 243);
   cursor: pointer;
 }

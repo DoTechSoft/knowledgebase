@@ -1,0 +1,5 @@
+#ads-section {
+  /* background-color: chartreuse; */
+  flex: 1 1 25%;
+  box-shadow: -0.5px 0px 0px 0px #888;
+}
