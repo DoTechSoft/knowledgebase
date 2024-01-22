@@ -23,6 +23,10 @@ async function run() {
   const mainContent = document.getElementById("main-content");
   sidebarListNodes.forEach((item) => {
     item.addEventListener("click", () => {
+      sidebarListNodes.forEach((element) => {
+        if (element.textContent !== item) element.removeAttribute("class");
+      });
+      item.setAttribute("class", "selected");
       mainContent.removeChild(mainContent.firstChild);
       mainContent.removeChild(mainContent.lastChild);
       mainContentData(mainContentFetchedData, item.textContent);

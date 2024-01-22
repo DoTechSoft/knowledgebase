@@ -10,6 +10,9 @@ const fetchSidebarData = async function () {
     for (const item of categories) {
       const listItem = document.createElement("li");
       listItem.textContent = item;
+      if (item === categories[0]) {
+        listItem.setAttribute("class", "selected");
+      }
       list.appendChild(listItem);
     }
     // console.log(list);
