@@ -24,17 +24,13 @@ async function run() {
   sidebarListNodes.forEach((item) => {
     item.addEventListener("click", () => {
       mainContent.removeChild(mainContent.firstChild);
+      mainContent.removeChild(mainContent.lastChild);
       mainContentData(mainContentFetchedData, item.textContent);
       initialCategorySelectionFlag = true;
     });
   });
   if (initialCategorySelectionFlag) {
-    console.log(sidebarListNodes[0].textContent);
-    mainContentData(
-      mainContentFetchedData,
-      sidebarListNodes[0].textContent,
-      true
-    );
+    mainContentData(mainContentFetchedData, sidebarListNodes[0].textContent);
   }
 
   const testPaper = await fetchTestPaper();
