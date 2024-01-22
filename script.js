@@ -16,8 +16,27 @@ const summaryMessage = document.querySelectorAll(
 );
 
 async function run() {
-  const sidebarSelectedMainContent = await fetchSidebarData();
-  mainContentData(sidebarSelectedMainContent);
+  const mainContentFetchedData = await fetchSidebarData();
+  const sidebarList = document.getElementById("sidebar-list");
+  const sidebarListNodes = sidebarList.childNodes;
+  const initialCategorySelectionFlag = true;
+  const mainContent = document.getElementById("main-content");
+  sidebarListNodes.forEach((item) => {
+    item.addEventListener("click", () => {
+      mainContent.removeChild(mainContent.firstChild);
+      mainContentData(mainContentFetchedData, item.textContent);
+      initialCategorySelectionFlag = true;
+    });
+  });
+  if (initialCategorySelectionFlag) {
+    console.log(sidebarListNodes[0].textContent);
+    mainContentData(
+      mainContentFetchedData,
+      sidebarListNodes[0].textContent,
+      true
+    );
+  }
+
   const testPaper = await fetchTestPaper();
 
   let questionCounter = 0;
