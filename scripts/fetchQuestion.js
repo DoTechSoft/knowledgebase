@@ -13,7 +13,7 @@ const fetchQuestion = async function (
   }
   const { question, options, answer } = testPaper[questionCounter];
   const correctAnswer = answer;
-  console.log(question, options, answer);
+  // console.log(question, options, answer);
   questionElement.textContent = question;
   option1.textContent = options[0];
   option2.textContent = options[1];

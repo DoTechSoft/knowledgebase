@@ -12,9 +12,9 @@ const fetchSidebarData = async function () {
       listItem.textContent = item;
       list.appendChild(listItem);
     }
-    console.log(list);
+    // console.log(list);
     sidebarSection.appendChild(list);
-    return responsePromise[categories[0]];
+    return responsePromise;
   } catch (error) {
     console.log(error);
   }
