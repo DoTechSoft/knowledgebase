@@ -1,6 +1,7 @@
 import fetchTestPaper from "./scripts/fetchTestPaper.js";
 import fetchQuestion from "./scripts/fetchQuestion.js";
 import fetchSidebarData from "./scripts/fetchSidebarData.js";
+import mainContentData from "./scripts/mainContentData.js";
 
 const card = document.getElementById("card-contents");
 const submitButton = document.getElementById("q1");
@@ -15,7 +16,8 @@ const summaryMessage = document.querySelectorAll(
 );
 
 async function run() {
-  fetchSidebarData();
+  const sidebarSelectedMainContent = await fetchSidebarData();
+  mainContentData(sidebarSelectedMainContent);
   const testPaper = await fetchTestPaper();
 
   let questionCounter = 0;

@@ -1,26 +1,23 @@
 const sidebarSection = document.getElementById("sidebar-section");
 
 const fetchSidebarData = async function () {
-  const categories = [
-    "JKSSB",
-    "JKPSC",
-    "Kashmir University",
-    "UGC NET",
-    "CSIR NET",
-    "SKIMS",
-    "SKUAST",
-  ];
-  const list = document.createElement("ul");
-  list.setAttribute("id", "sidebar-list");
-  for (const item of categories) {
-    const listItem = document.createElement("li");
-    listItem.textContent = item;
-    if (item === "JKSSB") {
-      listItem.setAttribute("class", "selected");
+  try {
+    const response = await fetch("../sidebarMainContentBank.json");
+    const responsePromise = await response.json();
+    const categories = Object.keys(responsePromise);
+    const list = document.createElement("ul");
+    list.setAttribute("id", "sidebar-list");
+    for (const item of categories) {
+      const listItem = document.createElement("li");
+      listItem.textContent = item;
+      list.appendChild(listItem);
     }
-    list.appendChild(listItem);
+    console.log(list);
+    sidebarSection.appendChild(list);
+    return responsePromise[categories[0]];
+  } catch (error) {
+    console.log(error);
   }
-  sidebarSection.appendChild(list);
 };
 
 export default fetchSidebarData;
