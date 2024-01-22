@@ -2,3 +2,33 @@
   /* background-color: brown; */
   flex: 1 1 60%;
 }
+#main-heading {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+#sub-category-list {
+  padding: 20px 20px;
+  /* background-color: blueviolet; */
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+#sub-category-list li {
+  box-shadow: 0.9px 0.9px 3px 0.2px #888;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+#sub-category-list li:nth-child(odd) {
+  background-color: rgb(223, 231, 241);
+}
+#sub-category-list li:nth-child(even) {
+  background-color: rgb(198, 228, 226);
+}
+
+#sub-category-list li:hover {
+  cursor: pointer;
+  background-color: rgb(233, 240, 243);
+}
