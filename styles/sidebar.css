@@ -15,7 +15,7 @@
 }
 #sidebar-list li:hover {
   cursor: pointer;
-  background-color: rgb(233, 240, 243);
+  background-color: rgba(173, 216, 230, 0.4);
 }
 .selected {
   background-color: lightblue;
