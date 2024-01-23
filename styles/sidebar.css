@@ -9,6 +9,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 50px 10px;
+  color: #222;
 }
 #sidebar-list li {
   padding: 10px 20px;

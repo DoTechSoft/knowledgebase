@@ -1,125 +1,135 @@
 {
   "JKSSB": {
-    "Finance Accounts Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Stock Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Junior Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Supervisior": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Panchayat Accounts Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ]
+    "Finance Accounts Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Stock Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Junior Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Supervisior": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Panchayat Accounts Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    }
   },
   "JKPSC": {
-    "Programmer": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Kashmir Administrative Service": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Assistant Registrar Cooperative Societies": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ]
+    "Programmer": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Kashmir Administrative Service": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Assistant Registrar Cooperative Societies": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    }
   },
   "Kashmir University": {
-    "Junior Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Assistant Professor": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Network Executive": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ]
+    "Junior Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Assistant Professor": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Network Executive": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    }
   },
   "UGC NET": {
-    "Computer Science": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "English": ["Test Paper 1", "Test Paper 2", "Test Paper 3", "Test Paper 4"],
-    "Urdu": ["Test Paper 1", "Test Paper 2", "Test Paper 3", "Test Paper 4"]
+    "Computer Science": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "English": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Urdu": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    }
   },
 
   "SKIMS": {
-    "Lab Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Junior Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Radiologist": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ]
+    "Lab Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Junior Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Radiologist": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    }
   },
   "SKUAST": {
-    "Junior Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Lab Assistant": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ],
-    "Network Executive": [
-      "Test Paper 1",
-      "Test Paper 2",
-      "Test Paper 3",
-      "Test Paper 4"
-    ]
+    "Junior Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Lab Assistant": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    },
+    "Network Executive": {
+      "Test Paper 1": {},
+      "Test Paper 2": {},
+      "Test Paper 3": {},
+      "Test Paper 4": {}
+    }
   }
 }
