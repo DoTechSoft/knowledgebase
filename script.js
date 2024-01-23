@@ -2,6 +2,7 @@ import fetchTestPaper from "./scripts/fetchTestPaper.js";
 import fetchQuestion from "./scripts/fetchQuestion.js";
 import fetchSidebarData from "./scripts/fetchSidebarData.js";
 import mainContentData from "./scripts/mainContentData.js";
+import adsContent from "./scripts/adsContent.js";
 
 const card = document.getElementById("card-contents");
 const submitButton = document.getElementById("q1");
@@ -44,6 +45,20 @@ async function run() {
     const [initialCategory, ...rest] = sidebarListNodes;
     mainContentData(mainContentFetchedData, initialCategory.textContent);
   }
+
+  //Running ads in the ads Section
+  const adsList = ["weekendpromo", "casualclothing", "snowseasonsale"];
+  let counter = 0;
+  //running the ad when the page intially loads
+  adsContent(2, adsList);
+  //running the ads in a loop
+  setInterval(() => {
+    adsContent(counter, adsList);
+    counter++;
+    if (counter > 2) {
+      counter = 0;
+    }
+  }, 5000);
 
   // const testPaper = await fetchTestPaper();
 
