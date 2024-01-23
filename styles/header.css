@@ -1,10 +1,10 @@
 #header {
   background-color: lightblue;
-  max-height: 70px;
-  flex: 1 1 10%;
+  /* max-height: 70px; */
+  flex: 1 1 15%;
   display: flex;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 #logo-section {
   flex: 1 1 40%;
