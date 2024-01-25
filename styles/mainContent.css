@@ -1,6 +1,7 @@
 #main-content {
   /* background-color: brown; */
   flex: 1 1 60%;
+  overflow: hidden;
 }
 #main-heading,
 #test-series-heading {

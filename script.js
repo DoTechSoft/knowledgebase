@@ -1,5 +1,3 @@
-import fetchTestPaper from "./scripts/fetchTestPaper.js";
-import fetchQuestion from "./scripts/fetchQuestion.js";
 import fetchSidebarData from "./scripts/fetchSidebarData.js";
 import mainContentData from "./scripts/mainContentData.js";
 import adsContent from "./scripts/adsContent.js";
@@ -19,7 +17,7 @@ const summaryMessage = document.querySelectorAll(
 async function run() {
   //fetches category data which gets displayed in the sidebar and also returns sub categories data that will display in the main content section
   const mainContentFetchedData = await fetchSidebarData();
-
+  // console.log(mainContentFetchedData);
   const sidebarList = document.getElementById("sidebar-list");
   const sidebarListNodes = sidebarList.childNodes;
   let initialCategorySelectionFlag = true;
@@ -30,21 +28,33 @@ async function run() {
       while (mainContent.firstChild) {
         mainContent.removeChild(mainContent.firstChild);
       }
+
       sidebarListNodes.forEach((element) => {
-        if (element.textContent !== item) element.removeAttribute("class");
+        if (element.textContent !== item.textContent)
+          element.removeAttribute("class");
       });
       item.setAttribute("class", "selected");
 
       //feching the sub category data for the clicked category for it to be displayed in the main content section
-      mainContentData(mainContentFetchedData, item.textContent);
+      mainContentData(
+        mainContentFetchedData[item.textContent],
+        item.textContent
+      );
       initialCategorySelectionFlag = true;
     });
   });
   if (initialCategorySelectionFlag) {
     //feching the initial default sub category data for it to be displayed in the main content section
     const [initialCategory, ...rest] = sidebarListNodes;
-    mainContentData(mainContentFetchedData, initialCategory.textContent);
+    mainContentData(
+      mainContentFetchedData[initialCategory.textContent],
+      initialCategory.textContent
+    );
   }
+
+  // fetching a test paper based on test selection
+  // const testPaper = await fetchTestPaper(mainContentFetchedData);
+  // console.log(testPaper);
 
   //Running ads in the ads Section
   const adsList = ["weekendpromo", "casualclothing", "snowseasonsale"];
@@ -59,8 +69,6 @@ async function run() {
       counter = 0;
     }
   }, 5000);
-
-  // const testPaper = await fetchTestPaper();
 
   // let questionCounter = 0;
   // const generateQuestion = await fetchQuestion(

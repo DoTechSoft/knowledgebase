@@ -6,6 +6,7 @@
   align-items: center;
   width: 100%;
   max-width: 1920px;
+  overflow: hidden;
 }
 #copyright-declaration {
   color: #fff;
