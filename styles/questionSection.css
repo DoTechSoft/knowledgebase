@@ -1,0 +1,29 @@
+#question-section,
+#controls-section {
+  /* background-color: red; */
+  padding: 0px 20px;
+}
+#controls-section {
+  display: flex;
+  flex-direction: row;
+  /* background-color: aqua; */
+  margin-top: 20px;
+  gap: 40px;
+}
+.next-button,
+.previous-button {
+  background-color: lightblue;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+.next-button:hover,
+.previous-button:hover {
+  cursor: pointer;
+  background-color: rgba(173, 216, 230, 0.4);
+}
+/* .previous-button {
+  background-color: lightblue;
+} */
+/* .next-button {
+  background-color: lightblue;
+} */
