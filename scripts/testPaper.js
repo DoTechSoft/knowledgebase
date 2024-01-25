@@ -16,11 +16,6 @@ const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
   questionSection.setAttribute("id", "question-section");
   mainContent.appendChild(questionSection);
 
-  const controlsSection = document.createElement("section");
-  controlsSection.setAttribute("id", "controls-section");
-  controlsSection.textContent = "controls";
-  mainContent.appendChild(controlsSection);
-
   //creating the question paper containing a list of objects
   const questionPaper = [];
   for (const item of Object.values(selectedTestPaper)) {
@@ -32,6 +27,33 @@ const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
   // calling display question function to display a specific question
   let counter = 0;
   displayQuestion(questionPaper[counter], questionSection);
+  const controlsSection = document.createElement("section");
+  controlsSection.setAttribute("id", "controls-section");
+
+  // Displaying the control buttons
+  //Creating the Previous button
+  const previousButton = document.createElement("div");
+  previousButton.setAttribute("class", "previous-button");
+  previousButton.textContent = "Previous";
+  previousButton.addEventListener("click", () => {
+    counter > 0 ? counter-- : console.log("counter is 0");
+    displayQuestion(questionPaper[counter], questionSection);
+  });
+  controlsSection.appendChild(previousButton);
+  mainContent.appendChild(controlsSection);
+
+  //Creating the next button
+  const nextButton = document.createElement("div");
+  nextButton.setAttribute("class", "next-button");
+  nextButton.textContent = "Next";
+  nextButton.addEventListener("click", () => {
+    counter < questionPaper.length - 1
+      ? counter++
+      : console.log("counter is at the end of the list");
+    displayQuestion(questionPaper[counter], questionSection);
+  });
+  controlsSection.appendChild(nextButton);
+  mainContent.appendChild(controlsSection);
 };
 
 export default testPaper;
