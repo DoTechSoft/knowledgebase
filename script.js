@@ -1,5 +1,3 @@
-import fetchTestPaper from "./scripts/fetchTestPaper.js";
-import fetchQuestion from "./scripts/fetchQuestion.js";
 import fetchSidebarData from "./scripts/fetchSidebarData.js";
 import mainContentData from "./scripts/mainContentData.js";
 import adsContent from "./scripts/adsContent.js";
@@ -19,7 +17,7 @@ const summaryMessage = document.querySelectorAll(
 async function run() {
   //fetches category data which gets displayed in the sidebar and also returns sub categories data that will display in the main content section
   const mainContentFetchedData = await fetchSidebarData();
-  console.log(mainContentFetchedData);
+  // console.log(mainContentFetchedData);
   const sidebarList = document.getElementById("sidebar-list");
   const sidebarListNodes = sidebarList.childNodes;
   let initialCategorySelectionFlag = true;

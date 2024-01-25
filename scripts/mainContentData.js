@@ -3,7 +3,7 @@ import testSeries from "./testSeries.js";
 const mainContent = document.getElementById("main-content");
 
 const mainContentData = function (selectedCategoryData, selectedCategoryTitle) {
-  console.log(selectedCategoryData, selectedCategoryTitle);
+  // console.log(selectedCategoryData, selectedCategoryTitle);
   // const subCategoriesData = selectedCategoryData;
   const subCategories = Object.keys(selectedCategoryData);
   const mainHeading = document.createElement("h1");

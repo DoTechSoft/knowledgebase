@@ -1,7 +1,7 @@
 import testPaper from "./testPaper.js";
 
 const testSeries = function (testSeriesData, mainContent, subCategoryTitle) {
-  console.log(testSeriesData, mainContent, subCategoryTitle);
+  // console.log(testSeriesData, mainContent, subCategoryTitle);
   while (mainContent.firstChild) {
     mainContent.removeChild(mainContent.firstChild);
   }
