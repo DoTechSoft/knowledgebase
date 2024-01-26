@@ -1,0 +1,16 @@
+#question-tag {
+  font-size: 18px;
+}
+#response-options {
+  list-style: none;
+  padding: 20px 0px;
+  /* background-color: rgb(245, 243, 243); */
+}
+#response-options li {
+  padding: 10px 30px;
+}
+#response-options li:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 1s;
+}

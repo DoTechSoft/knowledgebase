@@ -1,7 +1,18 @@
 #question-section,
 #controls-section {
   /* background-color: red; */
-  padding: 0px 20px;
+  margin: 0px 20px;
+  padding: 20px 20px;
+}
+#question-section {
+  /* background-color: rgba(173, 216, 230, 0.3); */
+  /* background-color: rgba(223, 231, 241, 0.5); */
+  background-color: rgb(223, 231, 241);
+  box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  min-height: 300px;
+  max-height: 300px;
+  overflow: auto;
 }
 #controls-section {
   display: flex;
@@ -13,13 +24,16 @@
 .next-button,
 .previous-button {
   background-color: lightblue;
-  border-radius: 8px;
+  background-color: rgb(223, 231, 241);
+  border-radius: 4px;
   padding: 5px 10px;
+  box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.2);
 }
 .next-button:hover,
 .previous-button:hover {
   cursor: pointer;
-  background-color: rgba(173, 216, 230, 0.4);
+  background-color: #fff;
+  transition: background-color 1s;
 }
 /* .previous-button {
   background-color: lightblue;

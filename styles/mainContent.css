@@ -42,4 +42,6 @@
   cursor: pointer;
   /* background-color: rgb(233, 240, 243); */
   background-color: rgba(173, 216, 230, 0.4);
+  background-color: #fff;
+  transition: background-color 1s;
 }
