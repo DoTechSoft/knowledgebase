@@ -17,6 +17,7 @@
 #sidebar-list li:hover {
   cursor: pointer;
   background-color: rgba(173, 216, 230, 0.4);
+  transition: background-color 1s;
 }
 .selected {
   background-color: lightblue;

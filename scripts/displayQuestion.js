@@ -6,12 +6,14 @@ const displayQuestion = function (questionObject, questionSection) {
   // Displaying the question
   const { question, options, answer } = questionObject;
   const questionTag = document.createElement("p");
+  questionTag.setAttribute("id", "question-tag");
   questionTag.textContent = question;
   questionSection.appendChild(questionTag);
   // Displaying the options
   const optionsList = document.createElement("ul");
+  optionsList.setAttribute("id", "response-options");
   options.forEach((element) => {
-    const option = document.createElement("p");
+    const option = document.createElement("li");
     option.textContent = element;
     optionsList.appendChild(option);
   });
