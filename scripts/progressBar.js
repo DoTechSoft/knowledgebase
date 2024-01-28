@@ -1,16 +1,10 @@
+import displayQuestion from "./displayQuestion.js";
+
 const sidebar = document.getElementById("sidebar-section");
 const mainSection = document.getElementById("main-section");
 
-const progressBar = function (selectedTestPaper) {
-  //   console.log(selectedTestPaper);
-  //creating the question paper containing a list of objects
-  const questionPaper = [];
-  for (const item of Object.values(selectedTestPaper)) {
-    item.forEach((element) => {
-      questionPaper.push(element);
-    });
-  }
-  console.log(questionPaper);
+const progressBar = function (questionPaper, counter, questionSection) {
+  // console.log(questionPaper, counter, questionSection);
   sidebar.className = "hidden";
   const progressBar = document.createElement("section");
   progressBar.setAttribute("id", "progress-bar");
@@ -19,9 +13,12 @@ const progressBar = function (selectedTestPaper) {
   const progressBarList = document.createElement("ul");
   progressBarList.setAttribute("id", "progressbar-list");
   questionPaper.map((item, index) => {
-    console.log(index);
     const progressBarListItem = document.createElement("li");
     progressBarListItem.textContent = index + 1;
+    progressBarListItem.addEventListener("click", () => {
+      console.log(index);
+      displayQuestion(questionPaper[index], questionSection);
+    });
     progressBarList.appendChild(progressBarListItem);
   });
   progressBar.appendChild(progressBarList);

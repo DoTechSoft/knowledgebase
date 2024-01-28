@@ -1,11 +1,7 @@
 import displayQuestion from "./displayQuestion.js";
+import progressBar from "./progressBar.js";
 
-const testPaper = function (
-  selectedTestPaper,
-  mainContent,
-  selectedTestTitle,
-  progressBar
-) {
+const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
   // console.log(selectedTestPaper, mainContent, selectedTestTitle, siderbarProgressSection);
   while (mainContent.firstChild) {
     mainContent.removeChild(mainContent.firstChild);
@@ -29,6 +25,7 @@ const testPaper = function (
     });
   }
   // console.log(questionPaper);
+
   // calling display question function to display a specific question
   let counter = 0;
   displayQuestion(questionPaper[counter], questionSection);
@@ -36,6 +33,9 @@ const testPaper = function (
   controlsSection.setAttribute("id", "controls-section");
 
   // Displaying the control buttons
+  //creating the progress bar
+  progressBar(questionPaper, counter, questionSection);
+
   //Creating the Previous button
   const previousButton = document.createElement("div");
   previousButton.setAttribute("class", "previous-button");
