@@ -1,3 +1,4 @@
+import progressBar from "./progressBar.js";
 import testPaper from "./testPaper.js";
 
 const testSeries = function (testSeriesData, mainContent, subCategoryTitle) {
@@ -17,6 +18,7 @@ const testSeries = function (testSeriesData, mainContent, subCategoryTitle) {
     const testSeriesListItem = document.createElement("li");
     testSeriesListItem.textContent = item;
     testSeriesListItem.addEventListener("click", () => {
+      progressBar(testSeriesData[item]);
       testPaper(testSeriesData[item], mainContent, item);
     });
     testSeriesList.appendChild(testSeriesListItem);

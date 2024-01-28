@@ -1,7 +1,12 @@
 import displayQuestion from "./displayQuestion.js";
 
-const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
-  // console.log(selectedTestPaper, mainContent, selectedTestTitle);
+const testPaper = function (
+  selectedTestPaper,
+  mainContent,
+  selectedTestTitle,
+  progressBar
+) {
+  // console.log(selectedTestPaper, mainContent, selectedTestTitle, siderbarProgressSection);
   while (mainContent.firstChild) {
     mainContent.removeChild(mainContent.firstChild);
   }

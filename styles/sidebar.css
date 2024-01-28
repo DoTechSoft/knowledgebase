@@ -22,3 +22,6 @@
 .selected {
   background-color: lightblue;
 }
+.hidden {
+  display: none;
+}
