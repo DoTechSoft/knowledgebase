@@ -1,4 +1,5 @@
 import displayQuestion from "./displayQuestion.js";
+import progressBarSelection from "./progressBarSelection.js";
 
 const sidebar = document.getElementById("sidebar-section");
 const mainSection = document.getElementById("main-section");
@@ -15,13 +16,10 @@ const progressBar = function (questionPaper, counter, questionSection) {
   questionPaper.map((item, index) => {
     const progressBarListItem = document.createElement("li");
     progressBarListItem.textContent = index + 1;
-    progressBarListItem.addEventListener("click", () => {
-      console.log(index);
-      displayQuestion(questionPaper[index], questionSection);
-    });
     progressBarList.appendChild(progressBarListItem);
   });
   progressBar.appendChild(progressBarList);
+  return progressBarList.childNodes;
 };
 
 export default progressBar;

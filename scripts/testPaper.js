@@ -1,5 +1,6 @@
 import displayQuestion from "./displayQuestion.js";
 import progressBar from "./progressBar.js";
+import progressBarSelection from "./progressBarSelection.js";
 
 const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
   // console.log(selectedTestPaper, mainContent, selectedTestTitle, siderbarProgressSection);
@@ -34,8 +35,21 @@ const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
 
   // Displaying the control buttons
   //creating the progress bar
-  progressBar(questionPaper, counter, questionSection);
+  const progressBarNodesList = progressBar(
+    questionPaper,
+    counter,
+    questionSection
+  );
 
+  //default progress bar question selection
+  progressBarSelection(progressBarNodesList, counter);
+  progressBarNodesList.forEach((element) => {
+    element.addEventListener("click", (event) => {
+      counter = Number(event.target.textContent - 1);
+      progressBarSelection(progressBarNodesList, counter);
+      displayQuestion(questionPaper[counter], questionSection);
+    });
+  });
   //Creating the Previous button
   const previousButton = document.createElement("div");
   previousButton.setAttribute("class", "previous-button");
@@ -43,6 +57,7 @@ const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
   previousButton.addEventListener("click", () => {
     counter > 0 ? counter-- : console.log("counter is 0");
     displayQuestion(questionPaper[counter], questionSection);
+    progressBarSelection(progressBarNodesList, counter);
   });
   controlsSection.appendChild(previousButton);
   mainContent.appendChild(controlsSection);
@@ -56,6 +71,7 @@ const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
       ? counter++
       : console.log("counter is at the end of the list");
     displayQuestion(questionPaper[counter], questionSection);
+    progressBarSelection(progressBarNodesList, counter);
   });
   controlsSection.appendChild(nextButton);
   mainContent.appendChild(controlsSection);
