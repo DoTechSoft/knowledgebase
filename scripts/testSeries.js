@@ -1,4 +1,3 @@
-import progressBar from "./progressBar.js";
 import testPaper from "./testPaper.js";
 
 const testSeries = function (testSeriesData, mainContent, subCategoryTitle) {
@@ -6,7 +5,6 @@ const testSeries = function (testSeriesData, mainContent, subCategoryTitle) {
   while (mainContent.firstChild) {
     mainContent.removeChild(mainContent.firstChild);
   }
-
   const testSeriesDataList = Object.keys(testSeriesData);
   const testSeriesHeader = document.createElement("h1");
   testSeriesHeader.setAttribute("id", "test-series-heading");
@@ -18,7 +16,6 @@ const testSeries = function (testSeriesData, mainContent, subCategoryTitle) {
     const testSeriesListItem = document.createElement("li");
     testSeriesListItem.textContent = item;
     testSeriesListItem.addEventListener("click", () => {
-      progressBar(testSeriesData[item]);
       testPaper(testSeriesData[item], mainContent, item);
     });
     testSeriesList.appendChild(testSeriesListItem);

@@ -20,7 +20,7 @@
   transition: background-color 1s;
 }
 .selected {
-  background-color: lightblue;
+  background-color: lightblue !important;
 }
 .hidden {
   display: none;

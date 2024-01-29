@@ -1,11 +1,8 @@
 import displayQuestion from "./displayQuestion.js";
+import progressBar from "./progressBar.js";
+import progressBarSelection from "./progressBarSelection.js";
 
-const testPaper = function (
-  selectedTestPaper,
-  mainContent,
-  selectedTestTitle,
-  progressBar
-) {
+const testPaper = function (selectedTestPaper, mainContent, selectedTestTitle) {
   // console.log(selectedTestPaper, mainContent, selectedTestTitle, siderbarProgressSection);
   while (mainContent.firstChild) {
     mainContent.removeChild(mainContent.firstChild);
@@ -29,6 +26,7 @@ const testPaper = function (
     });
   }
   // console.log(questionPaper);
+
   // calling display question function to display a specific question
   let counter = 0;
   displayQuestion(questionPaper[counter], questionSection);
@@ -36,6 +34,22 @@ const testPaper = function (
   controlsSection.setAttribute("id", "controls-section");
 
   // Displaying the control buttons
+  //creating the progress bar
+  const progressBarNodesList = progressBar(
+    questionPaper,
+    counter,
+    questionSection
+  );
+
+  //default progress bar question selection
+  progressBarSelection(progressBarNodesList, counter);
+  progressBarNodesList.forEach((element) => {
+    element.addEventListener("click", (event) => {
+      counter = Number(event.target.textContent - 1);
+      progressBarSelection(progressBarNodesList, counter);
+      displayQuestion(questionPaper[counter], questionSection);
+    });
+  });
   //Creating the Previous button
   const previousButton = document.createElement("div");
   previousButton.setAttribute("class", "previous-button");
@@ -43,6 +57,7 @@ const testPaper = function (
   previousButton.addEventListener("click", () => {
     counter > 0 ? counter-- : console.log("counter is 0");
     displayQuestion(questionPaper[counter], questionSection);
+    progressBarSelection(progressBarNodesList, counter);
   });
   controlsSection.appendChild(previousButton);
   mainContent.appendChild(controlsSection);
@@ -56,6 +71,7 @@ const testPaper = function (
       ? counter++
       : console.log("counter is at the end of the list");
     displayQuestion(questionPaper[counter], questionSection);
+    progressBarSelection(progressBarNodesList, counter);
   });
   controlsSection.appendChild(nextButton);
   mainContent.appendChild(controlsSection);
